@@ -8,6 +8,10 @@ html
 body
 { font-size: 90%;
   color: #555;}
+  @font-face {
+    font-family: ARCADE;
+    src: url(ARCADE.tff);
+	
 /** Images**/
 #homepage {
 position:fixed;
