@@ -16,7 +16,7 @@ left:500px;
 }
 p{
 font-size: 20px;
-text-align: center;
+text-align: center-left;
 }
 #Img2{
 position:fixed;
@@ -24,16 +24,11 @@ top:200px;
 left:20px;
 
 }
-#Img5{
-position:fixed;
-top:200px;
-right:20px;
-
-}
 #Img7{
 position:fixed;
 top:400px;
-right:400px;
+left:500px;
+
 
 }
 /**page title for About Me **/
@@ -42,9 +37,8 @@ font-size: 45px
  }
 #main-col{
 position:fixed;
-top:280px;
-left:300px;
-font-size:30px
+top:300px;
+left:500px;
 }
 /*General Styling*/
 .left
@@ -147,13 +141,14 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 
 ul#menu li a:hover
 { color: #B48A7C;}
+
 /*Sidebar*/
  aside#sidebar{
-	 font-size: 40px;
+	 font-size: 30px;
 	 float:right;
 	 width:15%;
 	 margin-top:30px;
-     height: 60px;
+     height: 40px;
      padding-right: 10px;
      background: #2D2D2D;
      border-top: 1px solid #3D3D3D;} 
