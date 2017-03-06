@@ -1,0 +1,206 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font-size: 90%;
+  color: #555;}
+/** Images**/
+#homepage {
+position:fixed;
+top:200px;
+left:500px;
+}
+p{
+font-size: 20px;
+text-align: center;
+}
+#Img2{
+position:fixed;
+top:200px;
+left:20px;
+
+}
+#Img5{
+position:fixed;
+top:200px;
+right:20px;
+
+}
+#Img7{
+position:fixed;
+top:400px;
+right:400px;
+
+}
+/**page title for About Me **/
+#pagetitle{
+font-size: 45px
+ }
+#main-col{
+position:fixed;
+top:280px;
+left:300px;
+font-size:30px
+}
+/*General Styling*/
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+#main, #Intro, #menubar
+{ margin-left: auto; 
+  margin-right: auto;}
+/* header*/
+#header
+{ background: #000;
+  border-bottom: 1px solid #3d3d3d;
+  height: 186px;}
+  
+#main-col{
+	 float:left;
+	 width:65%;
+ }
+/* Homepage everything like the backgroung etc*/
+#Intro
+{ width: 880px;
+  position: relative;
+  height: 140px;
+  background: #1d1d1d;}
+
+#Intro h1, #Intro h2
+{ font: normal 300% 'ARCADE';
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0 0 0 9px;}
+
+#text h1
+{ padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;}
+
+#text h1 
+{ color: #B48A7C;}
+
+#text a:hover
+{ color: #B48A7C;}
+
+#text h2
+{ font-size: 140%;
+  padding: 4px 0 0 0;
+  color: #B48A7C;}
+/*Menu bar*/
+#menubar
+{ width: 872px;
+  height: 45px;
+  padding-right: 8px;
+  background: #2D2D2D;
+  border-top: 1px solid #3D3D3D;} 
+
+ul#menu
+{ float: right;
+  margin: 0;}
+
+ul#menu li
+{ float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 8px 4px 0 4px;}
+
+ul#menu li a
+{ font: normal 100% 'ARCADE';
+  display: block; 
+  float: left; 
+  height: 20px;
+  padding: 6px 20px 5px 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: #5E4238;} 
+
+ul#menu li.selected a
+{ height: 20px;
+  padding: 6px 20px 5px 11px;}
+
+ul#menu li.selected
+{ margin: 8px 4px 0 13px;
+  background: #B48A7C;}
+
+ul#menu li.selected a, ul#menu li.selected a:hover
+{ background: #B48A7C;
+  color: #FFF;}
+
+ul#menu li a:hover
+{ color: #B48A7C;}
+/*Sidebar*/
+ aside#sidebar{
+	 font-size: 40px;
+	 float:right;
+	 width:15%;
+	 margin-top:30px;
+     height: 60px;
+     padding-right: 10px;
+     background: #2D2D2D;
+     border-top: 1px solid #3D3D3D;} 
+ }
+ a{
+	color: #ffffff;
+	text-decoration:none;
+	font-size:30px;
+}
+a:hover{
+	font-weight:bold;
+	color:#B48A7C;
+}
+
+#content
+{ text-align: left;
+  width: 620px;
+  padding: 0 0 0 5px;
+  float: right;}
+  
+/** Contact form **/
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 5px; 
+  width: 299px; 
+  font: 100% Times New Roman; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;}
