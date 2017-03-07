@@ -8,10 +8,6 @@ html
 body
 { font-size: 90%;
   color: #555;}
-  @font-face {
-    font-family: ARCADE;
-    src: url(ARCADE.tff);
-	
 /** Images**/
 #homepage {
 position:fixed;
@@ -20,7 +16,7 @@ left:500px;
 }
 p{
 font-size: 20px;
-text-align: center-left;
+text-align: center;
 }
 #Img2{
 position:fixed;
@@ -28,11 +24,16 @@ top:200px;
 left:20px;
 
 }
+#Img5{
+position:fixed;
+top:200px;
+right:20px;
+
+}
 #Img7{
 position:fixed;
 top:400px;
 left:500px;
-
 
 }
 /**page title for About Me **/
@@ -41,8 +42,9 @@ font-size: 45px
  }
 #main-col{
 position:fixed;
-top:300px;
-left:500px;
+top:280px;
+left:300px;
+font-size:30px
 }
 /*General Styling*/
 .left
